@@ -1,0 +1,100 @@
+<!Doctype html>
+<html>
+<head>
+<script>
+function myfunction()
+{
+document.getElementById("demo").innerHTML="My first JavaScript.";	
+}
+</script>
+<h2>External javascript</h2>
+<p id="demo">A paragraph</p>
+<button type="button" onclick="myfunction()">Try It</button>
+<title>form tags</title>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+<h2>My First javascript</h2>
+<button type="button"
+onclick="document.getElementById('demo').innerHTML=Date()">
+Click here to get date and time.
+</button>
+<p id="demo"></p>
+<form>
+<h1><i>STUDENT DETAILS</i></h1><br>
+<label class="best">First Name:</label>
+<input type="Name" class="big"/>
+<br><br>
+<label class="best">Password:</label>
+<input type="password" class="big"/>
+<br><br>
+<label class="best">Select a course:</label>
+<select style="font-size:8px;">
+<options>CSE</options>
+<options>AI&DS</options>
+<options>ECE</options>
+</select><br>
+<h4 class="right">Select Gender</h4>
+<label class="sign">Male</label><input type="radio" name="gender"/><br>
+<label class="sign">Female</label><input type="radio" name="gender"/><br>
+<label class="sign">Others</label><input type="radio" name="gender"/><br>
+<h4 class="right">choose your skills</h4>
+<label>html</label><input type="checkbox" name="skills" /><br>
+<label>css</label><input type="checkbox" name="skills"/><br>
+<label>php</label><input type="checkbox" name="skills"/><br>
+<label>javascript</label><input type="checkbox" name="skills"/><br>
+<label>choose your favourite color</label>
+<input type="color"/>
+<br><br>
+<label>choose date</label>
+<input type="date" value="pink"/>
+<br><br>
+<label>First Name:</label>
+<input type="Name"/>
+<br><br>
+<label>upload file</label>
+<input type="file"/>
+<br><br>
+<textarea cols="20" rows="10">
+</textarea>
+<input type="Submit"/>
+</form>
+</body>
+</html>
+
+<!-- styles -->
+<!--
+h1
+{
+text-align:center;	
+color:#42EC23;
+}
+form
+{
+text-align:center;
+border:solid;
+border-color:#F013B4;
+border-width:10px;
+color:#F8E130; 
+text-shadow:2px 2px #3EF830;
+background-color:#F330F8;
+
+}
+.best
+{
+text-transform:uppercase;	
+}
+.sign
+{
+text-transform:uppercase;
+text-align:center;	
+}
+.right
+{
+text-transform:uppercase;	
+}
+.big
+{
+background-color:pink;	
+}
+-->

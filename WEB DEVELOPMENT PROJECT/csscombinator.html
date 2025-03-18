@@ -1,0 +1,59 @@
+<DOCTYPE html>
+<html>
+<head>
+<title>csscombinator</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<style>
+#block1
+{
+font-size:35px;
+}
+</style>
+</head>
+<body>
+<div id="block1">
+<p>It is first block of the web page</p>
+<p>It is second block of the web page</p>
+<section><p>It is third block of the web page</p></section>
+<p>It is fourth block of the web page</p>
+</div>
+<p>It is first block of the web element</p>
+<p>It is second block of the web element</p>
+<p>It is third block of the web element</p>
+</body>
+</html>
+
+<!-- external stylesheet of descendant 
+#block1 p
+{
+background-color:red;
+color:yellow;
+}
+-->
+<!-- internal stylesheet of descendant selector
+div p
+{
+background-color:red;
+color:yellow;
+}
+-->
+<!-- internal and external stylesheet of child selector
+div > p
+{
+background-color:yellow;
+color:red;
+}
+-->
+<!-- internal and external stylesheet of adjacent sibling selector
+div + p
+{
+background-color:yellow;
+color:red;
+}
+<!-- internal and external stylesheet of general sibling selector
+div ~ p
+{
+background-color:yellow;
+color:red;
+}
+-->
